@@ -1,0 +1,40 @@
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 180px;
+
+}
+
+
+.project-txt{
+    margin-bottom: 10px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    font-size: xxx-large;
+
+}
+
+
+
+
+.project-desc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+
+
+@media (max-width:1139px) {
+    .projects-container{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+    
+
+    
+}

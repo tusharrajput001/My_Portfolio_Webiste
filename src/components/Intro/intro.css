@@ -1,0 +1,246 @@
+.Typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures the text is clipped */
+    border-right: transparent; /* Adjust border color/size as needed */
+    white-space: nowrap; /* Keeps the text in one line */
+    margin: 0 auto; /* Centers the typewriter text if needed */
+    font-family: monospace; /* Optional: Use a monospace font for typewriter effect */
+    font-size: 1em; /* Optional: Adjust font size */
+    animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+
+
+
+
+
+
+
+
+#intro{
+    height: 100vh;
+    width: 100vw;
+   
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+
+.intro-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    gap: 2rem;
+}
+
+
+
+.bg{
+    object-fit: cover;
+    position:relative;
+    top: -4rem;
+    z-index: -1;
+    right: 0;
+    height: 100vh;
+    
+}
+
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    position: absolute;
+    left: 170px;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 4rem;    
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+
+    
+}
+
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    
+    
+}
+
+
+.introName{
+    color: yellow;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+}
+
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: yellow;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1.4rem;
+    
+}
+
+
+.profile-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 30%;
+ 
+ 
+
+}
+
+
+
+
+.profile-img{
+    
+    top: 15.5rem;
+    left: 73%;
+    object-fit:cover;
+    height: 30vh;
+    border: 4px solid rgb(192, 191, 191);
+    border-radius: 50%;
+    border-style:double;
+    margin: 10px;
+    
+}
+
+
+/* RESPONSIVE-NESS */
+
+
+
+@media screen and (max-width:1250px){
+    .profile-img{
+        height: 25vh;
+    }
+
+
+    .content-div{
+        left: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:925px){
+
+    .content-div{
+        position: relative;
+        left: 0px;
+    }
+
+
+    .profile-container{
+        left: -26px;  
+    }
+
+    .btn{
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .btnImg{
+        object-fit: cover;
+        height: 2rem;
+        width: 2rem;
+        
+    }
+
+    .btn-txt{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .introContent{
+       
+        font-size: 2.2rem;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+
+        
+    }
+
+
+
+    .btn{    
+        text-align: center;
+    }
+
+    .intro-btns{
+        justify-content: center;
+        
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .profile-img{
+        height: 20vh;
+        margin-left: 70px;
+    }
+
+    .introContent{
+        font-size: 2.2rem;
+    }
+}

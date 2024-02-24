@@ -1,0 +1,66 @@
+.pr-card-container{
+    display: flex;
+    height: 550px;
+    width: 350px;
+    border: 2px solid white;
+    flex-direction: column;
+    background-color: rgba(35, 4, 105, 0.829);
+    border-radius: 26px;
+    margin: 100px 0px;
+    
+    
+}
+
+.pr-card-container:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 18px 16px rgba(145, 145, 137, 0.89);
+    transition: transform 0.4s ease, box-shadow 0.5s ease;
+}
+
+
+.img-container{
+    width: 350px;
+    height: 250px;
+    
+    
+}
+
+
+.pr-card-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+ 
+   
+    
+}
+
+
+.paragraph-txt{
+    padding: 20px 0px;
+}
+
+.PrButton{
+
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+.PrButton:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
+
+

@@ -1,0 +1,175 @@
+.active{
+    background-color: rgb(51, 13, 48);
+    
+
+}
+
+
+
+.nav-new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: fixed; /* Change from sticky to fixed */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Occupy full width */
+    z-index: 10; /* Ensure it appears above other content */
+    transition: top 0.3s; /* Add smooth transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+
+
+nav .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 3.5rem;
+    
+
+}
+
+.nav-new ul{
+    display: flex;
+    
+    
+}
+
+.nav-new li{
+    list-style: none;
+    
+
+}
+
+.nav-new ul li a{
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    
+
+}
+
+.nav-new ul li a:not(.active):hover{
+    background-color: #172554;
+}
+
+.nav-new .menu{
+    display: none;
+    position: absolute;
+    margin-top: 17px;
+    right: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2.1rem;
+     
+    
+    
+}
+
+
+.nav-new .menu span{
+    height: 1.4rem;
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    border-radius: 0.3rem;
+    margin-bottom: 4px;
+   
+}   
+
+
+
+
+
+.desktopMenuBtn{
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 0.9rem;
+    border-radius: 50px;
+    margin-right: 3.8rem;
+    
+
+}
+
+.desktopMenuBtn:hover{
+    background-color: rgb(15, 131, 226);
+    box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 6px 20px 0 rgba(253, 249, 249, 0.19);
+
+}
+
+
+.desktopMenu:hover{
+    color: rgb(78, 78, 73);
+    border-bottom: 3px solid yellow;
+
+
+    
+}
+
+.desktopMenu{
+    margin: 1.3rem;
+    justify-content: space-between;
+    cursor: pointer;
+    left: 100px;
+    
+}
+
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 0.7rem 0.2rem;        
+}
+
+
+@media(max-width:920px){
+
+    .desktopMenuBtn{
+        display: none;
+    }
+
+
+    .nav-new .menu{
+        display: flex;
+        
+    }
+    .nav-new{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .nav-new ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        
+    }
+
+    .nav-new ul.open{
+        display: flex;
+    }
+
+    .nav-new ul li{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .nav-new ul li a{
+        margin: 0.2rem 0.5rem;
+    }
+
+}

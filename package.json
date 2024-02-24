@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coreui/coreui": "^4.3.2",
     "@coreui/react": "^4.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

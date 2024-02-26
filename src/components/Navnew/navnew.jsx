@@ -7,17 +7,22 @@ function Navnew() {
 
    const [menuOpen,setMenuOpen] = useState(false);
 
+   const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+    if (!menuOpen) {
+       document.documentElement.classList.add('intro-margin');
+    } else {
+       document.documentElement.classList.remove('intro-margin');
+    }
+ };
+
 
 
   return (
-    <nav className='nav-new'>
+    <nav className={`nav-new ${menuOpen ? 'menu-open' : ''}`}>
         <a href="/" className='title'>Portfolio</a>
         <div className='menu' 
-        onClick={() => {
-            setMenuOpen(!menuOpen);
-        }}
-        
-        >
+        onClick={toggleMenu}>   
             <span></span>
             <span></span>
             <span></span>
@@ -38,4 +43,4 @@ function Navnew() {
   )
 }
 
-export default Navnew
+export default Navnew;

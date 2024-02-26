@@ -10,13 +10,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
-    position: fixed; /* Change from sticky to fixed */
-    top: 0; /* Stick to the top */
-    width: 100%; /* Occupy full width */
-    z-index: 10; /* Ensure it appears above other content */
-    transition: top 0.3s; /* Add smooth transition */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    background-color: rgba(47, 11, 58, 0.945);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 10; 
+    transition: top 0.3s; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -28,7 +28,6 @@ nav .title{
     text-decoration: none;
     color: white;
     margin-left: 3.5rem;
-    
 
 }
 
@@ -167,6 +166,7 @@ nav .title{
     }
 
     .nav-new ul li{
+        
         width: 100%;
         text-align: center;
 
@@ -177,3 +177,36 @@ nav .title{
     }
 
 }
+
+
+
+@media screen and (max-width:920px) {
+    .intro-margin #intro {
+       margin-top: 190px;
+    }
+
+    nav .title{
+        font-size: 1.3rem;
+        margin: .8rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        margin-left: 1.5rem;
+    
+    }
+ }
+
+
+ @media screen and (max-width:480px) {
+    nav .title{
+        font-size: 1.3rem;
+        margin: .8rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        margin-left: 1.5rem;
+    
+    }
+    
+}
+ 

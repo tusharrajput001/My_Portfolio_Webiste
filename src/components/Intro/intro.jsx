@@ -3,6 +3,7 @@ import './intro.css'
 import bg from '../../assets/image.png'
 import { Link } from 'react-scroll'
 
+
 function Intro() {
     const handleButtonClick = (link) => {
         window.location.href = link;

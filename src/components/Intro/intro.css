@@ -1,11 +1,11 @@
 .Typewriter {
     display: inline-block;
-    overflow: hidden; /* Ensures the text is clipped */
-    border-right: transparent; /* Adjust border color/size as needed */
-    white-space: nowrap; /* Keeps the text in one line */
-    margin: 0 auto; /* Centers the typewriter text if needed */
-    font-family: monospace; /* Optional: Use a monospace font for typewriter effect */
-    font-size: 1em; /* Optional: Adjust font size */
+    overflow: hidden; 
+    border-right: transparent; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    font-family: monospace; 
+    font-size: 1em; 
     animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
   }
   
@@ -53,7 +53,7 @@
     z-index: -1;
     right: 0;
     height: 100vh;
-    
+
 }
 
 
@@ -126,7 +126,8 @@
     display: flex;
     justify-content: center;
     left: 30%;
- 
+
+
  
 
 }
@@ -294,13 +295,4 @@
 
 
 }
-
-
-/* @media screen and (max-width:920px) {
-    
-    #intro{
-        margin-top: 190px;
-    }
-} */
-
 

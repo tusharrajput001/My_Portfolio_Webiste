@@ -64,3 +64,34 @@
 
 
 
+@media screen and (max-width:457px) {
+    .pr-card-container{
+        width: 300px;
+        border-radius: 50px;
+        margin: 66px 0px;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:347px) {
+    .pr-card-container{
+        width: 260px;
+        height: 460px;
+        border-radius: 50px;
+        margin: 66px 0px;
+        overflow: hidden;
+        
+    }
+
+    .pr-card-desc p{
+        font-size: 13px;
+    }
+
+    .pr-title{
+        font-size: 13px;
+    }
+
+
+}

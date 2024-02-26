@@ -48,3 +48,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+@media (max-width:700px){
+    .footer-head{
+        font-size: 11px;
+    }
+
+    .footer-nav{
+        font-size: 11px ;
+    }
+
+    .copyright-sec{
+        font-size: 11px;
+    }
+}

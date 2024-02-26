@@ -15,10 +15,11 @@
 .edu-heading{
     font-size: xxx-large;
     font-weight: 600;
-    padding: 40px;
+    padding: 10px;
 }
 
 .edu-card1{
+   
     margin-top: 40px;
     padding: 30px;
     display: flex;
@@ -52,6 +53,7 @@
     background: white;
     border-radius: 14px;
     padding: 4px;
+    
 }
 
 .card-container{
@@ -60,3 +62,66 @@
 }
 
 
+@media(max-width:920px){
+    .edu-heading{
+        font-size: 36px;
+       
+    }
+
+    .edu-desc{
+        font-size: 12px;
+    }}
+
+
+
+@media(max-width:623px) {
+    .edu-card{
+        padding: 14px;
+        
+    }
+    
+
+    .edu-card1{
+        width: 330px;
+        height: 240px;
+        padding: 18px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        border: 2.0px solid white;
+        border-radius: 50px;
+        background-color: rgb(58, 10, 54);
+    }
+
+
+    .edu-li{
+        padding: 10px;
+    }
+}
+
+
+
+@media(max-width:409px) {
+    .edu-card1{
+        width: 250px;
+      
+    }
+
+    .edu-desc{
+        font-size: 10px;
+    }
+
+    .edu-card-desc{
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:268px) {
+
+    .edu-heading{
+        font-size: 24px ;
+
+    }
+
+}

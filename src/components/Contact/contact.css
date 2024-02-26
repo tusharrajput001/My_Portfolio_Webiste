@@ -86,3 +86,14 @@
 .headingClass{
     font-size: xxx-large;
 }
+
+
+@media(max-width:920px){
+    .headingClass{
+        font-size: 36px;
+       
+    }
+
+    .desc{
+        font-size: 12px;    }
+}

@@ -4,6 +4,7 @@
     justify-content: space-around;
     margin-bottom: 180px;
 
+    
 }
 
 
@@ -38,3 +39,16 @@
 
     
 }
+
+
+@media(max-width:920px){
+    .project-txt{
+        font-size: 36px;
+       
+    }
+
+    .project-desc{
+        font-size: 12px;    }
+}
+
+

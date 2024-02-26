@@ -34,6 +34,7 @@
     margin: 0 auto;
     position: relative;
     
+    
 }
 
 
@@ -152,7 +153,7 @@
 
 
 
-@media screen and (max-width:1250px){
+@media screen and (max-width:1300px){
     .profile-img{
         height: 25vh;
     }
@@ -176,7 +177,7 @@
     .profile-container{
         left: -26px;  
     }
-
+    
     .btn{
         width: 50px;
         height: 50px;
@@ -244,3 +245,55 @@
         font-size: 2.2rem;
     }
 }
+
+
+
+@media screen and (max-width:399px) {
+    .introContent{
+        font-size: 1.3rem;
+    }
+    .content-div{
+        margin: 0px;
+
+    }
+}
+
+
+@media screen and (max-width:281px) {
+    .introContent{
+        font-size: 1.0rem;
+    }
+
+    .content-div{
+        margin: 0px;
+    }
+
+
+    .profile-img{
+        height: 15vh;
+        margin-left: 70px;
+    }
+
+    .btn{
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .btnImg{
+        object-fit: contain;
+    }
+
+}
+
+
+@media screen and (max-width:471px) {
+    .introContent{
+        font-size: 1.3rem;
+    }
+
+
+}
+
+

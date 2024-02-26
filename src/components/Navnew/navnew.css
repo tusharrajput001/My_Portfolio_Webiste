@@ -45,7 +45,7 @@ nav .title{
 }
 
 .nav-new ul li a{
-    
+    overflow: hidden;
     display: block;
     text-decoration: none;
     color: white;
@@ -131,6 +131,10 @@ nav .title{
     width: 1rem;
     margin: 0.7rem 0.2rem;        
 }
+
+
+
+
 
 
 @media(max-width:920px){

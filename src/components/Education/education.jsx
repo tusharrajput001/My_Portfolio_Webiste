@@ -14,20 +14,23 @@ function Education() {
                             <div>
                                 <img src='https://www.jims.in/Admissions_2021/images/logo.jpg' className='edu-img'/>
                             </div>
-                            <div>
-                                <div>JIMS, Sector-3, Rohini</div>
-                                <div>New Delhi</div>
+                            <div  className='edu-card-desc'>
+
+                                <div>
+                                        <div>JIMS, Sector-3, Rohini</div>
+                                            <div>New Delhi</div>
+                                        </div>
+                                    <div>
+                                        Masters of computer application (MCA)
+                                    </div>
+                                    <div>
+                                        2022-24
+                                    </div>
+                                    <div>
+                                        Grade: --%
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                Masters of computer application (MCA)
-                            </div>
-                            <div>
-                                2022-24
-                            </div>
-                            <div>
-                            Grade: --%
-                            </div>
-                        </div>
 
                     </div>
                 </li>
@@ -40,20 +43,22 @@ function Education() {
                             <div>
                                 <img src='https://iitmjp.ac.in/wp-content/uploads/2023/11/4d77f5df-7269-4e45-a145-3778e3fc7353.png' className='edu-img'/>
                             </div>
-                            <div>
-                                <div>IITM , JANAKPURI (G.G.S.I.P.U)</div>
-                                <div>New Delhi</div>
+                            <div className='edu-card-desc'>
+                                <div>
+                                    <div>IITM , JANAKPURI (G.G.S.I.P.U)</div>
+                                    <div>New Delhi</div>
+                                </div>
+                                <div>
+                                    Bachelor of Computer Applications (BCA)
+                                </div>
+                                <div>
+                                    2019-22
+                                </div>
                             </div>
                             <div>
-                                Bachelor of Computer Applications (BCA)
+                                Grade: 83.7%
                             </div>
-                            <div>
-                                2019-22
                             </div>
-                        </div>
-                        <div>
-                            Grade: 83.7%
-                        </div>
                     </div>
 
 
@@ -67,19 +72,21 @@ function Education() {
                             <div>
                                 <img src='https://upload.wikimedia.org/wikipedia/commons/4/4b/Kamal_Public_School.png' className='edu-img'/>
                             </div>
-                            <div>
-                                <div>Kamal public sr. sec. school, Vikaspuri</div>
-                                <div>New Delhi</div>
+                            <div className='edu-card-desc'>
+                                <div>
+                                    <div>Kamal public sr. sec. school, Vikaspuri</div>
+                                    <div>New Delhi</div>
+                                </div>
+                                <div>
+                                    HIGH SCHOOL (XII) 
+                                </div>
+                                <div>
+                                    2019
+                                </div>
                             </div>
                             <div>
-                                HIGH SCHOOL (XII) 
+                                Grade: 64%
                             </div>
-                            <div>
-                                2019
-                            </div>
-                        </div>
-                        <div>
-                            Grade: 64%
                         </div>
                     </div>
 

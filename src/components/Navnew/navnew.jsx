@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import './navnew.css'
 import { useState } from 'react'
 import contactImg from "../../assets/contact.png"
@@ -8,6 +7,8 @@ function Navnew() {
 
    const [menuOpen,setMenuOpen] = useState(false);
 
+
+
   return (
     <nav className='nav-new'>
         <a href="/" className='title'>Portfolio</a>
@@ -15,6 +16,7 @@ function Navnew() {
         onClick={() => {
             setMenuOpen(!menuOpen);
         }}
+        
         >
             <span></span>
             <span></span>

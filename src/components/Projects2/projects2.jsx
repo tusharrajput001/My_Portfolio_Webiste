@@ -12,7 +12,7 @@ function Projects2({cardImg,PrTitle,PrFe,PrBe,GithubLink}) {
       </div>
 
         <div className="pr-card-desc">
-            <h2>{PrTitle}</h2>
+            <h2 className='pr-title'>{PrTitle}</h2>
               <p className='paragraph-txt'>
                 Frontend: {PrFe}<br/>
                 Backend: {PrBe}
@@ -24,9 +24,6 @@ function Projects2({cardImg,PrTitle,PrFe,PrBe,GithubLink}) {
                 </button>
               </a>
          </div>
-
-         
-
     </div>
   
   )

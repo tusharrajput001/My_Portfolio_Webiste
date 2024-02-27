@@ -9,7 +9,7 @@ import Skills from './components/Skills/skill';
 import Navnew from './components/Navnew/navnew';
 import videoSource from './assets/starsvid.mp4'
 import Project2main from './components/Projects2/project2main';
-
+import { useEffect } from 'react';
 
 
 

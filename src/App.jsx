@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import './assets/logo.png'
 import Intro from './components/Intro/intro';
-
 import Education from './components/Education/education';
 import Contact from './components/Contact/contact'
 import Footer from './components/Footer/footer';
@@ -17,6 +16,22 @@ import Project2main from './components/Projects2/project2main';
 
 
 function App() {
+  useEffect(() => {
+    const video = document.getElementById("video-background");
+
+    const handleVideoEnd = () => {
+      video.currentTime = 0;
+    };
+
+    video.addEventListener('ended', handleVideoEnd);
+
+    return () => {
+      video.removeEventListener('ended', handleVideoEnd);
+    };
+  }, []);
+
+
+
   return (
     <>
 

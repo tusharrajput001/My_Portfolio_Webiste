@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/img1 (3).jpg'
+import bg from '../../assets/img1 (4).jpg'
 import { Link } from 'react-scroll'
 
 

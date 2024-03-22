@@ -20,7 +20,7 @@ function Projects2({cardImg,PrTitle,PrFe,PrBe,GithubLink}) {
 
               <a href={GithubLink} target="_blank" rel="noopener noreferrer">
                 <button className='PrButton' type='button'>
-                  GITHUB LINK
+                  - - LINK - -
                 </button>
               </a>
          </div>

@@ -31,9 +31,9 @@ function Skills() {
                 <Skill_icon name={"Python"} link={"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png"}/>
                 <Skill_icon name={"Java"} link={"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-256.png"}/>
                 <Skill_icon name={"MySQL"} link={"https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-256.png"}/>
-                <Skill_icon name={"REST API"} link={"https://cdn0.iconfinder.com/data/icons/buno-api/32/api_calls_programming-10-256.png"}/>
-                
+                <Skill_icon name={"APIs"} link={"https://cdn0.iconfinder.com/data/icons/buno-api/32/api_calls_programming-10-256.png"}/>
                 <Skill_icon name={"SQLite3"} link={"https://cdn0.iconfinder.com/data/icons/file-format-database-j-fill/64/database_file_document-56-256.png"}/>
+                <Skill_icon name={"MongoDB"} link={"https://cdn4.iconfinder.com/dat a/icons/logos-brands-5/24/mongodb-256.png"}/>
             </div>
         </div>
 
@@ -46,13 +46,13 @@ function Skills() {
                 <Skill_icon name={"Linux"} link={"https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_linux-256.png"}/>
                 <Skill_icon name={"Git"} link={"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/141_Git_logo_logos-256.png"}/>
                 <Skill_icon name={"Github"} link={"https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png"}/>
-                <Skill_icon name={"PS"} link={"https://cdn4.iconfinder.com/data/icons/ais/512/Ps.png"}/>
-                <Skill_icon name={"Figma"} link={"https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-256.png"}/>
+                <Skill_icon name={"Photoshop"} link={"https://cdn4.iconfinder.com/data/icons/ais/512/Ps.png"}/>
+                <Skill_icon name={"Postman"} link={"https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postman-256.png"}/>
                 
             </div>
         </div>
     
-    
+        
     </div>
     </div>
   )

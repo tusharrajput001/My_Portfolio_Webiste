@@ -17,7 +17,10 @@
     transition: transform 0.4s ease, box-shadow 0.5s ease;
 }
 
-
+.btn-bg{
+    display: flex;
+    justify-content: center;
+}
 .img-container{
     width: 350px;
     height: 250px;

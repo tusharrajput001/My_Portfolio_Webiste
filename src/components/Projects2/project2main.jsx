@@ -12,7 +12,7 @@ function Project2main() {
     <p className='project-desc'>Here are some of my projects.</p>
 
     <div className='projects-container'>
-        <Projects2 GithubLink="https://radiantgym.netlify.app/" cardImg={PrImg3}  PrTitle="Gym Website " PrFe="HTML, CSS, JS, ReactJS" PrBe = "MongoDB, NodeJS"/>
+        <Projects2 GithubLink="https://radiantgym.netlify.app/" cardImg={PrImg3}  PrTitle="Gym Website Portal " PrFe="HTML, CSS, JS, ReactJS" PrBe = "MongoDB, NodeJS"/>
         <Projects2 GithubLink="https://github.com/tusharrajput001/DesktopNotifierr" cardImg={PrImg2} PrTitle="Desktop Notifier Application" PrFe="Python, Tkinter" PrBe = "SQLite3"/>
         <Projects2 GithubLink="https://github.com/tusharrajput001/Plagiarism_checker" cardImg={PrImg1} PrTitle="Plagiarism Checker Application" PrFe="Python, Tkinter" PrBe = "SQLite3, RestAPI"/>
         

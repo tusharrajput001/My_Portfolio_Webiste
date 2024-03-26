@@ -36,7 +36,7 @@ function Navnew() {
         </ul>
 
         <button className='desktopMenuBtn'>
-                <img href="/" src={contactImg} alt='' className='desktopMenuImg'/>Contact Me
+                <img href="#contact" src={contactImg} alt='' className='desktopMenuImg'/>Contact Me
         </button>
     </nav>
     

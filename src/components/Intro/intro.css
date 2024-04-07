@@ -35,8 +35,11 @@
     flex-direction: row;
     justify-content:start;
     gap: 2rem;
+    
 }
-
+.intro-btns button{
+    box-shadow: rgba(81, 80, 80, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
 
 
 .bg{

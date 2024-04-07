@@ -1,5 +1,5 @@
 .active{
-    background-color: rgb(51, 13, 48);
+    background-color: rgba(51, 13, 48, 0);
     
 
 }
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #22283195;
+    background-color: #2228317a;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -56,7 +56,7 @@ nav .title{
 }
 
 .nav-new ul li a:not(.active):hover{
-    background-color: #172554;
+    color: #0eedf1;
 }
 
 .nav-new .menu{
@@ -138,6 +138,11 @@ nav .title{
 
 @media(max-width:920px){
 
+
+    .nav-new{
+        background-color: #222831;
+    }
+
     .desktopMenuBtn{
         display: none;
     }
@@ -150,6 +155,7 @@ nav .title{
     .nav-new{
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
 

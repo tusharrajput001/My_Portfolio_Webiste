@@ -28,7 +28,7 @@ function Navnew() {
             <span></span>
         </div>
         <ul className={menuOpen ? "open" : ""}>  
-            <li><a href="/">Home</a></li>
+            <li><a href="#intro">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#project">Project</a></li>
             <li><a href="#education">Education</a></li>

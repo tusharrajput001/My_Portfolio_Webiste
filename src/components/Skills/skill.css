@@ -19,13 +19,13 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    height: 47px;
-    width: 133px;
+    height: 55px;
+    width: 150px;
     gap: 5px;
     border: 2px solid rgb(107, 103, 103);
     border-radius: 50px;
     margin: 10px;
-    padding: 7px;
+    padding: 10px;  
 }
 
 .skills-card-container{

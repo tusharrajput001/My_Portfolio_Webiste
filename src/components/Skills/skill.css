@@ -34,11 +34,12 @@
 
 .skills-card-container{
     width: 570px; /* Adjust width as needed */
-    border: 2px solid #222831;
+    /* border: .50px solid #222831; */
     padding: 10px;
     margin: 20px auto; /* Adjust margin as needed */
     border-radius: 50px;
     background-color: #ffffffd9;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     
 }
 

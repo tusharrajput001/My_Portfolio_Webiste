@@ -6,7 +6,7 @@ function Footer() {
     <footer className='footer-sec'>
         <h1 className='footer-head'>Tushar Rajput</h1>
         <nav className='footer-nav'>
-            <a href='/'>Home</a>
+            <a href='#intro'>Home</a>
             <a href='#skills'>Skills</a>
             <a href='#project'>Projects</a>
             <a href='#education'>Education</a>

@@ -25,13 +25,18 @@
 
 
 .footer-nav {
-    color: rgb(255, 255, 255); 
     display: flex;
     height: 2rem;
     gap: 2rem;
     font-size: 15px;
     margin-top: 16px;
 }
+
+
+.footer-nav > a{
+    color: rgba(201, 201, 197, 0.738);
+}
+
 
 .footer-links {
     display: flex;
@@ -45,7 +50,7 @@
 .copyright-sec {
     display: flex;
     font-size: small;
-    color: rgb(255, 255, 255); 
+    color: rgba(212, 211, 211, 0.733); 
 }
 
 body {

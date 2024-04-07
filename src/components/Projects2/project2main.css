@@ -1,3 +1,8 @@
+.projects-part{
+    background-color:#222831;
+}
+
+
 .projects-container{
     display: flex;
     flex-direction: row;

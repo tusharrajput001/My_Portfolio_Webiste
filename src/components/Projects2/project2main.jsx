@@ -7,7 +7,7 @@ import PrImg3 from '../../assets/gym.png'
 
 function Project2main() {
   return (
-    <section >
+    <section className='projects-part'>
     <h1 className='project-txt' id='project'>Projects</h1>
     <p className='project-desc'>Here are some of my projects.</p>
 

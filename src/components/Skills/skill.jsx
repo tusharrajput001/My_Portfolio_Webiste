@@ -4,7 +4,7 @@ import Skill_icon from './skill_icon'
 
 function Skills() { 
   return (
-    <div>
+    <div className='skills-part'>
         <h1 className='skills-heading' id='skills'>Skills</h1>
         <p className='skills-head-desc'>Here are some of my skills on which I have been working on for the past years.</p>
     

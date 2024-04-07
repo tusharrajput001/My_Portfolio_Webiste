@@ -12,13 +12,11 @@
     display: flex;
     height: 600px;
     width: 530px;
-    border: 2px solid rgb(250, 248, 248);
+    border: .3px solid rgba(250, 248, 248, 0.518);
     margin: 20px;
     box-sizing: border-box;
-    border-radius: 50px;
-    border-style:solid;
-    box-shadow: 0 4px 8px 0 rgba(244, 248, 0, 0.2), 0 6px 20px 0 rgba(221, 218, 9, 0.19);
-    background-color: rgba(34, 4, 105, 0.719);
+    /* border-radius: 50px; */
+    box-shadow: rgba(242, 242, 244, 0.15) 0px 2px 5px 0px, rgba(255, 255, 255, 0.05) 0px 1px 1px 0px;
     
    
 }
@@ -30,8 +28,7 @@
     align-items: center;
     padding: 10px;
     padding-top: 20px;
-    background-color: #474E68;
-
+    background-color: rgba(0, 0, 0, 0.45);
     
 }
 
@@ -51,7 +48,6 @@
     margin-top: 10px;
     height: 70px;
     width: 400px;
-    border: 1px solid white;
     background-color: aliceblue;
     border-radius: 27px;
     text-align: center;
@@ -63,7 +59,7 @@
     margin-top: 10px;
     height: 125px;
     width: 400px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-color: aliceblue;
     border-radius: 27px;
     text-align: center;
@@ -75,13 +71,13 @@
     height: 50px;
     width: 400px;
     background-color: rgb(32, 145, 221);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50px;
     margin-top: 20px;
 }
 
 .send-btn:hover{
-    background-color: rgba(94, 9, 73, 0.795);
+    background-color: rgba(11, 43, 91, 0.383);
 }
 
 

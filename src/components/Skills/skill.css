@@ -1,6 +1,6 @@
 .skills-part{
     background-color: #EEEEEE;
-    color: black;
+    color: rgba(0, 0, 0, 0.76);
 }
 .skills-heading{
     display: flex;

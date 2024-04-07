@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     padding: 70px;
-    background-color: #A6B1E1;
+    background-color: #EEEEEE;
+    color: rgba(0, 0, 0, 0.772);
 }
 
 
@@ -25,24 +26,15 @@
     padding: 30px;
     display: flex;
     flex-direction: column;
-    border: 2.3px solid white;
     border-radius: 50px;
-    background-color: rgb(51, 13, 48);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 
 .edu-li{
     padding: 50px;
 }
-
-
-
-.edu-card1:hover{
-    transform: scale(1.05); 
-    box-shadow: 0 18px 16px rgba(145, 145, 137, 0.89);
-    transition: transform 0.4s ease, box-shadow 0.5s ease;
-}
-
 
 
 
@@ -65,7 +57,7 @@
 
 @media(max-width:920px){
     .edu-heading{
-        font-size: 36px;
+        font-size: 45px;
        
     }
 
@@ -89,15 +81,9 @@
         font-size: 15px;
         display: flex;
         flex-direction: column;
-        border: 2.0px solid white;
-        border-radius: 50px;
-        background-color: rgb(58, 10, 54);
     }
 
 
-    .edu-li{
-        padding: 10px;
-    }
 }
 
 

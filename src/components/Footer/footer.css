@@ -4,13 +4,10 @@
     align-items: center;
     letter-spacing: 0.1cap;
     margin-top: 190px;
-    background-color: rgb(49, 5, 40);
-    padding-bottom: 50px; /* Adjust as needed */
-    border-top-left-radius: 50% 20px;
-    border-top-right-radius: 50% 20px;
+    padding-bottom: 50px; 
     overflow: hidden;
     position: relative;
-    background-color: #6b728ebe;
+    background-color: #222831;
 }
 
 .footer-head {
@@ -20,6 +17,12 @@
     color: rgb(255, 255, 255); 
     padding-top: 20px;
 }
+
+
+.footer-links > svg{
+    color: white;
+}
+
 
 .footer-nav {
     color: rgb(255, 255, 255); 

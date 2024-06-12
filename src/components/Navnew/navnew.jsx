@@ -35,9 +35,9 @@ function Navnew() {
             <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <button className='desktopMenuBtn'>
+        <a href="#contact" className='desktopMenuBtn'>
                 <img href="#contact" src={contactImg} alt='' className='desktopMenuImg'/>Contact Me
-        </button>
+        </a>
     </nav>
     
   )

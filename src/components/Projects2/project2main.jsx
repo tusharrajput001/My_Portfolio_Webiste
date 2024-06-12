@@ -4,6 +4,7 @@ import './project2main.css'
 import PrImg1 from '../../assets/plag.png'
 import PrImg2 from '../../assets/notifier.png'
 import PrImg3 from '../../assets/gym.png'
+import PrImg4 from '../../assets/invoice.png'
 
 function Project2main() {
   return (
@@ -13,7 +14,8 @@ function Project2main() {
 
     <div className='projects-container'>
         <Projects2 GithubLink="https://radiantgym.netlify.app/" cardImg={PrImg3}  PrTitle="Gym Website Portal " PrFe="HTML, CSS, JS, ReactJS" PrBe = "MongoDB, NodeJS"/>
-        <Projects2 GithubLink="https://github.com/tusharrajput001/DesktopNotifierr" cardImg={PrImg2} PrTitle="Desktop Notifier Application" PrFe="Python, Tkinter" PrBe = "SQLite3"/>
+        <Projects2 GithubLink="https://proformainvoicegen.netlify.app/" cardImg={PrImg4} PrTitle="Invoice Generator" PrFe="HTML, CSS, JS, ReactJS" PrBe = "MongoDB, NodeJS"/>
+        <Projects2 GithubLink="https://github.com/tusharrajput001/Desktop_Notifier_Application" cardImg={PrImg2} PrTitle="Desktop Notifier Application" PrFe="Python, Tkinter" PrBe = "SQLite3"/>
         <Projects2 GithubLink="https://github.com/tusharrajput001/Plagiarism_checker" cardImg={PrImg1} PrTitle="Plagiarism Checker Application" PrFe="Python, Tkinter" PrBe = "SQLite3, RestAPI"/>
         
     </div>

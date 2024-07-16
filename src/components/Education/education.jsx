@@ -1,5 +1,6 @@
 import React from 'react'
 import './education.css'
+import jims from '../../assets/jims.png';
 
 function Education() {
   return (
@@ -12,7 +13,7 @@ function Education() {
                     <div className='edu-card1'>
                         <div> 
                             <div>
-                                <img src='https://www.jims.in/Admissions_2021/images/logo.jpg' className='edu-img'/>
+                                <img src={jims} className='edu-img'/>
                             </div>
                             <div  className='edu-card-desc'>
 

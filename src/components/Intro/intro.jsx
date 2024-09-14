@@ -25,7 +25,7 @@ function Intro() {
                 <Link className='intro-btns'>   
                     <button className='btn' onClick={() => handleButtonClick('https://github.com/tusharrajput001')}><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png" alt='Github' className='btnImg'/><p className='btn-txt'>Github</p> </button>
                     <button className='btn' onClick={() => handleButtonClick('https://twitter.com/Devop_tusharR')}><img src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-contained-256.png" alt='Twitter' className='btnImg'/><p className='btn-txt'>Twitter</p></button>
-                    <button className='btn' onClick={() => handleButtonClick('https://www.linkedin.com/in/tushar-rajput-2b5992284/')}><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt='LinkedIn' className='btnImg'/><p className='btn-txt'>LinkedIn</p> </button>
+                    <button className='btn' onClick={() => handleButtonClick('https://www.linkedin.com/in/tusharrajputt/')}><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt='LinkedIn' className='btnImg'/><p className='btn-txt'>LinkedIn</p> </button>
                 </Link>                
             </div> 
 
